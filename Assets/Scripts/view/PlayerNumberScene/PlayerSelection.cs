@@ -18,7 +18,7 @@ public class PlayerSelection : MonoBehaviour
 
     private void Start()
     {
-        manager = managerObject.GetComponent<MetaGameManager>();
+        manager = MetaGameManager._instance;
     }
     public void SelectPlayerNumber(int number)
     {

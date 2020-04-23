@@ -5,21 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class MetaGameManager : MonoBehaviour
 {
-    public int activePlayers { get; set; }
+	public static MetaGameManager _instance;
+	public int activePlayers { get; set; }
     public HashSet<PlayersAvailable> pickedPlayerd = new HashSet<PlayersAvailable>();
     public CardGame game = new CardGame();
 
-    // Use this for initialization
-    void Start()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+	void Awake()
+	{
+		if (_instance == null)
+		{
+			_instance = this;
+			DontDestroyOnLoad(gameObject);
+		}
+		else
+			Destroy(gameObject);
+	}
 
 	public void Quit()
 	{

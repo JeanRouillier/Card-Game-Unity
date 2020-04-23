@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 public class ChosePath : MonoBehaviour
 {
     private MetaGameManager manager;
-    public GameObject managerObject;
 
     public Color selectedColor;
     public Color defaultColor;
@@ -20,7 +19,8 @@ public class ChosePath : MonoBehaviour
 
     void Start()
     {
-        manager = managerObject.GetComponent<MetaGameManager>();
+        manager = MetaGameManager._instance;
+        Debug.Log("toto" + manager);
     }
 
     public void validatePath()
@@ -31,6 +31,7 @@ public class ChosePath : MonoBehaviour
 
     public void setActivepath(int pathId)
     {
+        Debug.Log("Path clicked");
         pickedPath = pathId;
         if(pickedPath == 0)
         {
