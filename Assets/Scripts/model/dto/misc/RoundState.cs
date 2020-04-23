@@ -1,0 +1,10 @@
+
+public enum RoundState {
+
+    START,
+    ENCOUNTER_PICKED,
+    ENEMIES_PLACED,
+    ALLIES_PLACED,
+    ENEMIES_ATTACKED,
+    ALLIES_ATTACKED
+}
