@@ -8,9 +8,14 @@ public class Campaigns
     public CampaignPath currentPath;
     public Bonefirepath chosenPath;
 
-    public void initWolnirCampaign()
+    public Campaigns()
     {
-        
+        wolnirCampaign = initWolnirCampaign();
+        sulyvanCampaign = initSulyvanCampaign();
+    }
+
+    public Bonefirepath initWolnirCampaign()
+    {       
         CampaignPath wolnir = new CampaignPath(null, true, "Wolnir boss", null, null);
         CampaignPath abyssWatchers = new CampaignPath(null, true, "Abyss Watchers boss", null, null);
 
@@ -25,8 +30,9 @@ public class Campaigns
         CampaignPath lowerLeft = new CampaignPath(2, false, null, null, abyssWatchers);
 
         wolnirCampaign = new Bonefirepath(CampaignsId.WOLNIR, upperLeft, upperRight, lowerLeft, lowerRightFirst);
+        return wolnirCampaign;
     }
-    public void initSulyvanCampaign()
+    public Bonefirepath initSulyvanCampaign()
     {
         CampaignPath wordt = new CampaignPath(null, true, "Sulyvan Boss", null, null);
         CampaignPath sulyvan = new CampaignPath(null, true, "Abyss Watchers boss", null, null);
@@ -42,6 +48,6 @@ public class Campaigns
         CampaignPath lowerLeft = new CampaignPath(2, false, null, null, sulyvan);
 
         sulyvanCampaign = new Bonefirepath(CampaignsId.SULYVAN, upperLeft, upperRight, lowerLeft, lowerRightFirst);
-
+        return sulyvanCampaign;
     }
 }

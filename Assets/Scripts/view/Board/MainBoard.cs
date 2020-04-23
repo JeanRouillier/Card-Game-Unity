@@ -19,7 +19,7 @@ public class MainBoard : MonoBehaviour
     {
         manager =MetaGameManager._instance;
         Sprite campaignImage = manager.game.campaignPath.chosenPath.id == CampaignsId.WOLNIR ? wolnirCampaign : sulyvanCampaign;
-        campaignBoardObject.GetComponent<Image>().sprite = campaignImage;
+        campaignBoardObject.GetComponent<SpriteRenderer>().sprite = campaignImage;
     }
 
     // Update is called once per frame
