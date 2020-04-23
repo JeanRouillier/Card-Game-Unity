@@ -1,29 +1,20 @@
-using System;
 using System.Collections.Generic;
-using UnityEngine;
-
 
 public class CardGame
 {
-	public static Players players = new Players();
-	public static AlliesBoard alliesBoard = new AlliesBoard();
-	public static EnemiesBoard enemiesBoard = new EnemiesBoard();
+	public Players players = new Players();
+	public AlliesBoard alliesBoard = new AlliesBoard();
+	public EnemiesBoard enemiesBoard = new EnemiesBoard();
 
 	public Encounters encounterList = new Encounters();
+	public Campaigns campaignPath = new Campaigns();
 	public Round currentRound = new Round();
-
-	//public AssetLoader assetLoader;
-
-	public void initActivePlayers(HashSet<PlayersAvailable> list)
-	{
-		players.InitActivePlayers(list);
-	}
 
 	void Start() {
 		
 	}
 
-	void Update() {
+	void nextStep() {
 		if (RoundState.START.Equals(currentRound.state)) {
 			currentRound.activeEncounter = null;
 			enemiesBoard.flush();

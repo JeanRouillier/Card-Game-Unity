@@ -20,4 +20,24 @@ public class MetaGameManager : MonoBehaviour
     {
 
     }
+
+	public void Quit()
+	{
+		Application.Quit();
+	}
+	public void initActivePlayers(HashSet<PlayersAvailable> list)
+	{
+		game.players.InitActivePlayers(list);
+	}
+	public void initPickedCampaign(int campaignId)
+	{
+		if (campaignId == 0)
+		{
+			game.campaignPath.chosenPath = game.campaignPath.wolnirCampaign;
+		}
+		else if (campaignId == 1)
+		{
+			game.campaignPath.chosenPath = game.campaignPath.sulyvanCampaign;
+		}
+	}
 }

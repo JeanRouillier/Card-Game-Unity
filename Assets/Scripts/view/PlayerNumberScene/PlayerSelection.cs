@@ -1,14 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PlayerSelection : MonoBehaviour
 {
     private MetaGameManager manager;
+    public GameObject managerObject;
+
+    public Color selectedColor;
+    public Color defaultColor;
+    public GameObject assassinObject;
+    public GameObject heraldObject;
+    public GameObject wizardObject;
+    public GameObject knightObject;
+
     private void Start()
     {
-        manager = GameObject.Find("MetaGameManagerGameObject").gameObject.GetComponent<MetaGameManager>();
+        manager = managerObject.GetComponent<MetaGameManager>();
     }
     public void SelectPlayerNumber(int number)
     {
@@ -24,16 +34,52 @@ public class PlayerSelection : MonoBehaviour
         switch (p)
         {
             case "ASSASSIN":
-                manager.pickedPlayerd.Add(PlayersAvailable.ASSASSIN);
+                if (!assassinObject.GetComponent<Toggle>().isOn)
+                {
+                    assassinObject.GetComponent<Image>().color = defaultColor;
+                    manager.pickedPlayerd.Remove(PlayersAvailable.ASSASSIN);
+                }
+                else
+                {
+                    assassinObject.GetComponent<Image>().color = selectedColor;
+                    manager.pickedPlayerd.Add(PlayersAvailable.ASSASSIN);
+                }
                 break;
             case "HERALD":
-                manager.pickedPlayerd.Add(PlayersAvailable.HERALD);
+                if (!heraldObject.GetComponent<Toggle>().isOn)
+                {
+                    heraldObject.GetComponent<Image>().color = defaultColor;
+                    manager.pickedPlayerd.Remove(PlayersAvailable.HERALD);
+                }
+                else
+                {
+                    heraldObject.GetComponent<Image>().color = selectedColor;
+                    manager.pickedPlayerd.Add(PlayersAvailable.HERALD);
+                }
                 break;
             case "KNIGHT":
-                manager.pickedPlayerd.Add(PlayersAvailable.ASSASSIN);
+                if (!knightObject.GetComponent<Toggle>().isOn)
+                {
+                    knightObject.GetComponent<Image>().color = defaultColor;
+                    manager.pickedPlayerd.Remove(PlayersAvailable.KNIGHT);
+                }
+                else
+                {
+                    knightObject.GetComponent<Image>().color = selectedColor;
+                    manager.pickedPlayerd.Add(PlayersAvailable.KNIGHT);
+                }
                 break;
             case "WIZARD":
-                manager.pickedPlayerd.Add(PlayersAvailable.WIZARD);
+                if (!wizardObject.GetComponent<Toggle>().isOn)
+                {
+                    wizardObject.GetComponent<Image>().color = defaultColor;
+                    manager.pickedPlayerd.Remove(PlayersAvailable.WIZARD);
+                }
+                else
+                {
+                    wizardObject.GetComponent<Image>().color = selectedColor;
+                    manager.pickedPlayerd.Add(PlayersAvailable.WIZARD);
+                }
                 break;
 
         }
@@ -44,15 +90,10 @@ public class PlayerSelection : MonoBehaviour
         Debug.Log("All picked players: " + manager.pickedPlayerd.ToString());
         foreach (PlayersAvailable i in manager.pickedPlayerd)
         {
-           Debug.Log(i);
+           Debug.Log(i.ToString());
         }
-        manager.game.initActivePlayers(manager.pickedPlayerd);
+        manager.initActivePlayers(manager.pickedPlayerd);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
-
-    public void Quit()
-    {
-        Application.Quit();
     }
 
 }
