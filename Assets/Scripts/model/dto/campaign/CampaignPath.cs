@@ -9,6 +9,8 @@ public class CampaignPath
     public string bossName;
     public CampaignPath previous;
     public CampaignPath next;
+    public CampaignPathEnum position;
+    public Encounter encounter;
 
     public CampaignPath(int? encounterLevel, bool isBossEncounter, string bossName, CampaignPath previous, CampaignPath next)
     {

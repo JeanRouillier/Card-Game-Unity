@@ -12,6 +12,8 @@ public class Campaigns
     {
         wolnirCampaign = initWolnirCampaign();
         sulyvanCampaign = initSulyvanCampaign();
+        //As default
+        chosenPath = wolnirCampaign;
     }
 
     public Bonefirepath initWolnirCampaign()

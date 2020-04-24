@@ -1,7 +1,217 @@
 fileFormatVersion: 2
 guid: 7619d0cc24de6764488ee97833ca279a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2960891168020354738
+    second: class_encounters_0
+  - first:
+      213: -4817990205925661916
+    second: class_encounters_1
+  - first:
+      213: -756670085534651090
+    second: class_encounters_2
+  - first:
+      213: -7280722060215140011
+    second: class_encounters_3
+  - first:
+      213: 497109243628193342
+    second: class_encounters_4
+  - first:
+      213: -3825815697066014271
+    second: class_encounters_5
+  - first:
+      213: 844526127604886115
+    second: class_encounters_6
+  - first:
+      213: -3142537597621039007
+    second: class_encounters_7
+  - first:
+      213: -3981914743633352356
+    second: class_encounters_8
+  - first:
+      213: 8671859196978506360
+    second: class_encounters_9
+  - first:
+      213: 8595501862295908734
+    second: class_encounters_10
+  - first:
+      213: -1064388288553797881
+    second: class_encounters_11
+  - first:
+      213: -6712759798810695796
+    second: class_encounters_12
+  - first:
+      213: 6748679875180493057
+    second: class_encounters_13
+  - first:
+      213: 3494496188362945062
+    second: class_encounters_14
+  - first:
+      213: 3391889289007964210
+    second: class_encounters_15
+  - first:
+      213: -7458384119239044101
+    second: class_encounters_16
+  - first:
+      213: -9151877870488672733
+    second: class_encounters_17
+  - first:
+      213: -8121105132301241482
+    second: class_encounters_18
+  - first:
+      213: 3632508113605824490
+    second: class_encounters_19
+  - first:
+      213: -5843608306999841762
+    second: class_encounters_20
+  - first:
+      213: 8113388786244264398
+    second: class_encounters_21
+  - first:
+      213: 1967689317012504573
+    second: class_encounters_22
+  - first:
+      213: -5582565636563145383
+    second: class_encounters_23
+  - first:
+      213: -4767117027705564795
+    second: class_encounters_24
+  - first:
+      213: -532067889533769160
+    second: class_encounters_25
+  - first:
+      213: 6355948643967523488
+    second: class_encounters_26
+  - first:
+      213: 2083101349990501840
+    second: class_encounters_27
+  - first:
+      213: 7050611956454649569
+    second: class_encounters_28
+  - first:
+      213: -639468747498439879
+    second: class_encounters_29
+  - first:
+      213: -5822522660724869232
+    second: class_encounters_30
+  - first:
+      213: -829714833998844913
+    second: class_encounters_31
+  - first:
+      213: 6328705438191755923
+    second: class_encounters_32
+  - first:
+      213: 8688566952781269604
+    second: class_encounters_33
+  - first:
+      213: 7756382764562893584
+    second: class_encounters_34
+  - first:
+      213: -5495481127103304374
+    second: class_encounters_35
+  - first:
+      213: -1963864896240679634
+    second: class_encounters_36
+  - first:
+      213: 2132987652185722439
+    second: class_encounters_37
+  - first:
+      213: -1143847214178630283
+    second: class_encounters_38
+  - first:
+      213: 5957183039939221826
+    second: class_encounters_39
+  - first:
+      213: 4008282198062511358
+    second: class_encounters_40
+  - first:
+      213: -7799526869548953659
+    second: class_encounters_41
+  - first:
+      213: -9167410946096742365
+    second: class_encounters_42
+  - first:
+      213: -7637187698615504243
+    second: class_encounters_43
+  - first:
+      213: 6609276182754194011
+    second: class_encounters_44
+  - first:
+      213: -2400481625025041309
+    second: class_encounters_45
+  - first:
+      213: -7195834608615950754
+    second: class_encounters_46
+  - first:
+      213: 4443409471431368313
+    second: class_encounters_47
+  - first:
+      213: -1852531195800927581
+    second: class_encounters_48
+  - first:
+      213: -3365587874592748918
+    second: class_encounters_49
+  - first:
+      213: -1159889285643983115
+    second: class_encounters_50
+  - first:
+      213: 9189500367552269965
+    second: class_encounters_51
+  - first:
+      213: 5695768876822199749
+    second: class_encounters_52
+  - first:
+      213: 8703274470809361354
+    second: class_encounters_53
+  - first:
+      213: -8651282608418635450
+    second: class_encounters_54
+  - first:
+      213: -5915990420378683155
+    second: class_encounters_55
+  - first:
+      213: -7677263478658591567
+    second: class_encounters_56
+  - first:
+      213: -1660926415288219077
+    second: class_encounters_57
+  - first:
+      213: -122512283695745646
+    second: class_encounters_58
+  - first:
+      213: -673447055115953783
+    second: class_encounters_59
+  - first:
+      213: 6948366177837953804
+    second: class_encounters_60
+  - first:
+      213: -2046050542672982952
+    second: class_encounters_61
+  - first:
+      213: 7460512342898184893
+    second: class_encounters_62
+  - first:
+      213: -6582794800574403239
+    second: class_encounters_63
+  - first:
+      213: -4858275152265773959
+    second: class_encounters_64
+  - first:
+      213: 4245802371403328548
+    second: class_encounters_65
+  - first:
+      213: -781398218280666679
+    second: class_encounters_66
+  - first:
+      213: 1048808410167095537
+    second: class_encounters_67
+  - first:
+      213: -1614122806577570876
+    second: class_encounters_68
+  - first:
+      213: -2215367448852209680
+    second: class_encounters_69
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +241,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +250,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +281,1539 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: class_encounters_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8491
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6d17074d2371920800000000000000
+      internalID: 2960891168020354738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 8491
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4236d7c3f6f032db0800000000000000
+      internalID: -4817990205925661916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 8491
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dea83f094cf75f0800000000000000
+      internalID: -756670085534651090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8491
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551c6847cdda5fa90800000000000000
+      internalID: -7280722060215140011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8491
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e368509293616e600800000000000000
+      internalID: 497109243628193342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_5
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 8491
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c94440c4e8f7eac0800000000000000
+      internalID: -3825815697066014271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_6
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 8491
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aec6fd90c58bb00800000000000000
+      internalID: 844526127604886115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_7
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 8491
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1601d7074b67364d0800000000000000
+      internalID: -3142537597621039007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_8
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 8491
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59e7d343a56db8c0800000000000000
+      internalID: -3981914743633352356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_9
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 8491
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aab128ef1a85870800000000000000
+      internalID: 8671859196978506360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7076
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e713b50276b594770800000000000000
+      internalID: 8595501862295908734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_11
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 7076
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7073aadad788a31f0800000000000000
+      internalID: -1064388288553797881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_12
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 7076
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87ad59578c77d2a0800000000000000
+      internalID: -6712759798810695796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 7076
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109f5f6279028ad50800000000000000
+      internalID: 6748679875180493057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_14
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 7076
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6227458c4c1fe7030800000000000000
+      internalID: 3494496188362945062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_15
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 7076
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230a5cc5659621f20800000000000000
+      internalID: 3391889289007964210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_16
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 7076
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf39756e82f7e7890800000000000000
+      internalID: -7458384119239044101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_17
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 7076
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326a3c5c09ffdf080800000000000000
+      internalID: -9151877870488672733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_18
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 7076
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673359dd8e90c4f80800000000000000
+      internalID: -8121105132301241482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_19
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 7076
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef033b22e2496230800000000000000
+      internalID: 3632508113605824490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5661
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ca0ce943557eea0800000000000000
+      internalID: -5843608306999841762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5661
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec12ab05d1c889070800000000000000
+      internalID: 8113388786244264398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5661
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff7cd03203ae4b10800000000000000
+      internalID: 1967689317012504573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_23
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5661
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95de959912eb682b0800000000000000
+      internalID: -5582565636563145383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_24
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5661
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581d4e0125cc7ddb0800000000000000
+      internalID: -4767117027705564795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_25
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 5661
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83aa2ffc217bd98f0800000000000000
+      internalID: -532067889533769160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_26
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5661
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa5f4ecd9dd43850800000000000000
+      internalID: 6355948643967523488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_27
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 5661
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd025d14a9a8ec10800000000000000
+      internalID: 2083101349990501840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_28
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 5661
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eee999f73ec8d160800000000000000
+      internalID: 7050611956454649569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_29
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 5661
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b346cef862027f0800000000000000
+      internalID: -639468747498439879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4246
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097f4d63d7e323fa0800000000000000
+      internalID: -5822522660724869232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_31
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4246
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c60a621c24c74f0800000000000000
+      internalID: -829714833998844913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_32
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4246
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392a08ba01414d750800000000000000
+      internalID: 6328705438191755923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_33
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4246
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ac9bb0c9df39870800000000000000
+      internalID: 8688566952781269604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_34
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4246
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bcbbf770534ab60800000000000000
+      internalID: 7756382764562893584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_35
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 4246
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4de42df7012cb3b0800000000000000
+      internalID: -5495481127103304374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_36
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4246
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2507b82843feb4e0800000000000000
+      internalID: -1963864896240679634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_37
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 4246
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e03d6f7f4e99d10800000000000000
+      internalID: 2132987652185722439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_38
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 4246
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5750091e40d3020f0800000000000000
+      internalID: -1143847214178630283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_39
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 4246
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2491f8d896a2ca250800000000000000
+      internalID: 5957183039939221826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2831
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4b90f1c6740a730800000000000000
+      internalID: 4008282198062511358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_41
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2831
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf8b64c2a382c390800000000000000
+      internalID: -7799526869548953659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_42
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2831
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32040e7c050d6c080800000000000000
+      internalID: -9167410946096742365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_43
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2831
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d823a0d6042430690800000000000000
+      internalID: -7637187698615504243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_44
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2831
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b527387bbadd8bb50800000000000000
+      internalID: 6609276182754194011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_45
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 2831
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ca78a2ea6cfaed0800000000000000
+      internalID: -2400481625025041309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_46
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2831
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56fbf27c82432c90800000000000000
+      internalID: -7195834608615950754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_47
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 2831
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ed5404f592aad30800000000000000
+      internalID: 4443409471431368313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_48
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 2831
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2c4fa41bc7a46e0800000000000000
+      internalID: -1852531195800927581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_49
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 2831
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a8982e8a70b41d0800000000000000
+      internalID: -3365587874592748918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1416
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6a86e07de37efe0800000000000000
+      internalID: -1159889285643983115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_51
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1416
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e464f65e9a78f70800000000000000
+      internalID: 9189500367552269965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_52
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1416
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd76b1bd9f6b0f40800000000000000
+      internalID: 5695768876822199749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_53
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1416
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb515fe40e38c870800000000000000
+      internalID: 8703274470809361354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_54
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1416
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64141b9dd4870f780800000000000000
+      internalID: -8651282608418635450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_55
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 1416
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8f6b29e0e26eda0800000000000000
+      internalID: -5915990420378683155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_56
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1416
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b49973ca81e47590800000000000000
+      internalID: -7677263478658591567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_57
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 1416
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aceaaa93433f8e0800000000000000
+      internalID: -1660926415288219077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_58
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 1416
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29571b12abfbc4ef0800000000000000
+      internalID: -122512283695745646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_59
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 1416
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989d7c0b87f67a6f0800000000000000
+      internalID: -673447055115953783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03be57893e8d6060800000000000000
+      internalID: 6948366177837953804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_61
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c4b733fd7fa93e0800000000000000
+      internalID: -2046050542672982952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_62
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db21dd8c270198760800000000000000
+      internalID: 7460512342898184893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_63
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d697a810735a4a0800000000000000
+      internalID: -6582794800574403239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_64
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c77104d70f39cb0800000000000000
+      internalID: -4858275152265773959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_65
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 1
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ca106f2ce1cea30800000000000000
+      internalID: 4245802371403328548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_66
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9f143e57ae725f0800000000000000
+      internalID: -781398218280666679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_67
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 1
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0b37531bd1e8e00800000000000000
+      internalID: 1048808410167095537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_68
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 1
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb56120cdb7999e0800000000000000
+      internalID: -1614122806577570876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: class_encounters_69
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 1
+        width: 1000
+        height: 1415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff5334fa0f6141e0800000000000000
+      internalID: -2215367448852209680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

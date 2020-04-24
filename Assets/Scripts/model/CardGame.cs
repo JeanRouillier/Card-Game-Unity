@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 public class CardGame
@@ -10,26 +11,39 @@ public class CardGame
 	public Campaigns campaignPath = new Campaigns();
 	public Round currentRound = new Round();
 
-	void Start() {
-		
+	public CardGame() {
+		//currentRound.activeEncounter = null;
+		enemiesBoard.flush();
+		alliesBoard.flush();
 	}
 
-	void nextStep() {
-		if (RoundState.START.Equals(currentRound.state)) {
-			currentRound.activeEncounter = null;
-			enemiesBoard.flush();
-			alliesBoard.flush();
+	public void nextStep() {
+		
+		if (RoundState.START.Equals(currentRound.state)){
+			int ? level = campaignPath.currentPath.encounterLevel;
+			if(level != null)
+			{				
+				//currentRound.activeEncounter = Rules.selectEncounter(encounterList, level.Value);
+				campaignPath.currentPath.encounter = Rules.selectEncounter(encounterList, level.Value);
+			}
+			else
+			{
+				//TODO Boss path
+			}
+			currentRound.state = RoundState.ENCOUNTER_PICKED;
+			return;
 		}
 		if (RoundState.ENCOUNTER_PICKED.Equals(currentRound.state)) {
 			//PLACE ENEMIES
-			Dictionary<int?, EncounterRow> detail = currentRound.activeEncounter.detail;
+			Dictionary<int?, EncounterRow> detail = campaignPath.currentPath.encounter.detail;
 			List<Enemy> enemies = EnemyService.pickEnemies(detail[1]);
 			enemiesBoard.placeEnemies(enemies);
 			currentRound.state = RoundState.ENEMIES_PLACED;
+			return;
 		}
 		if (RoundState.ENEMIES_PLACED.Equals(currentRound.state)) {
 			//Place allies
-
+			return;
 		}
 
 		if (RoundState.ALLIES_PLACED.Equals(currentRound.state)) {
@@ -39,12 +53,14 @@ public class CardGame
 			enemies.AddRange(enemiesBoard.FrontLineEnemyWaitingList);
 			EnemyService.enemyAttack(enemies, alliesBoard);
 			currentRound.state = RoundState.ENEMIES_ATTACKED;
+			return;
 		}
 		if (RoundState.ENEMIES_ATTACKED.Equals(currentRound.state)) {
 			currentRound.state = RoundState.ALLIES_ATTACKED;
+			return;
 		}
 		if (RoundState.ALLIES_ATTACKED.Equals(currentRound.state)) {
-
+			return;
 		}
 	}
 }

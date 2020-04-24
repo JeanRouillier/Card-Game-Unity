@@ -2,6 +2,7 @@
 public enum RoundState {
 
     START,
+    PICK_PATH,
     ENCOUNTER_PICKED,
     ENEMIES_PLACED,
     ALLIES_PLACED,

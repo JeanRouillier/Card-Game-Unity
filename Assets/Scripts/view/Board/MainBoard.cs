@@ -14,6 +14,11 @@ public class MainBoard : MonoBehaviour
     public Sprite wolnirCampaign;
     public Sprite sulyvanCampaign;
 
+    public Text currentStepText;
+    public Text currentStepButtonText;
+
+    public EncounterBoard encounterBoard;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,5 +31,21 @@ public class MainBoard : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void nextStep()
+    {
+        RoundState activeStep = manager.nextStep();
+        switch (activeStep)
+        {
+            case RoundState.PICK_PATH:
+                currentStepText.text = "Pick encounter";
+                currentStepButtonText.text = "Valid encounter";
+                break;
+            case RoundState.ENCOUNTER_PICKED:
+                currentStepText.text = "Enemies are placed on board. Position your characters on your board";
+                currentStepButtonText.text = "Validate position";
+                break;
+        }
     }
 }

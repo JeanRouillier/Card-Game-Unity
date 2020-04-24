@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MetaGameManager : MonoBehaviour
 {
-	public static MetaGameManager _instance;
+	public static MetaGameManager _instance ;
 	public int activePlayers { get; set; }
     public HashSet<PlayersAvailable> pickedPlayerd = new HashSet<PlayersAvailable>();
     public CardGame game = new CardGame();
@@ -39,5 +39,47 @@ public class MetaGameManager : MonoBehaviour
 		{
 			game.campaignPath.chosenPath = game.campaignPath.sulyvanCampaign;
 		}
+	}
+
+	public RoundState nextStep()
+	{
+		game.nextStep();
+		return game.currentRound.state;
+	}
+
+	public CampaignPath setCurrentPath(CampaignPathEnum s)
+	{
+		CampaignPath newPath = null;
+		switch (s)
+		{
+			case CampaignPathEnum.LOWER_LEFT:
+				newPath = game.campaignPath.chosenPath.lowerLeft ;
+				break;
+			case CampaignPathEnum.UPPER_RIGHT:
+				newPath = game.campaignPath.chosenPath.upperRight;
+				break;
+			case CampaignPathEnum.LOWER_RIGHT_ONE:
+				newPath = game.campaignPath.chosenPath.lowerRight;
+				break;
+			case CampaignPathEnum.LOWER_RIGHT_TWO:
+				newPath = game.campaignPath.chosenPath.lowerRight.next;
+				break;
+			case CampaignPathEnum.UPPER_LEFT:
+				newPath = game.campaignPath.chosenPath.upperLeft;
+				break;
+		}
+		game.campaignPath.currentPath = newPath;
+		game.campaignPath.currentPath.position = s;
+		return newPath;
+	}
+	
+	public Round getCurrentRound()
+	{
+		return game.currentRound;
+	}
+
+	public CampaignPath getCurrentPath()
+	{
+		return game.campaignPath.currentPath;
 	}
 }
