@@ -21,7 +21,7 @@ public class Encounters {
                             {2,  new EncounterRow(1, 0, 1, 0) },
                             {3,  new EncounterRow(2, 1, 1, 0) },
                             {4,  new EncounterRow(2, 2, 1, 0) },
-                        }, true, "class_encounters_00033"),
+                        }, true, "class_encounters-33"),
         new Encounter("Hollow Cave",
                                 new Dictionary<int?, EncounterRow>
                                 {
@@ -29,7 +29,7 @@ public class Encounters {
                                     {2,  new EncounterRow(1, 2, 0, 0) },
                                     {3,  new EncounterRow(2, 3, 0, 0) },
                                     {4,  new EncounterRow(2, 4, 0, 0) },
-                                }, true, "class_encounters_00034"),
+                                }, true, "class_encounters-34"),
         new Encounter("The Deeps",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -37,7 +37,7 @@ public class Encounters {
                             {2,  new EncounterRow(1, 3, 0, 0) },
                             {3,  new EncounterRow(2, 4, 0, 0) },
                             {4,  new EncounterRow(2, 3, 1, 0) },
-                        }, true, "class_encounters_00035"),
+                        }, true, "class_encounters-35"),
         new Encounter("Ash Gardens",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -45,7 +45,7 @@ public class Encounters {
                             {2,  new EncounterRow(1, 1, 1, 0) },
                             {3,  new EncounterRow(2, 2, 1, 0) },
                             {4,  new EncounterRow(2, 1, 1, 0) },
-                        }, true, "class_encounters_00036"),
+                        }, true, "class_encounters-36"),
         new Encounter("Road of Sacrifices",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -53,7 +53,7 @@ public class Encounters {
                             {2,  new EncounterRow(1, 2, 0, 0) },
                             {3,  new EncounterRow(2, 2, 1, 0) },
                             {4,  new EncounterRow(2, 1, 2, 0) },
-                        }, true, "class_encounters_00037"),
+                        }, true, "class_encounters-37"),
         new Encounter("Ashen Hollow",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -61,7 +61,7 @@ public class Encounters {
                             {2,  new EncounterRow(1, 3, 0, 0) },
                             {3,  new EncounterRow(2, 2, 1, 0) },
                             {4,  new EncounterRow(2, 5, 0, 0) },
-                        }, true, "class_encounters_00038"),
+                        }, true, "class_encounters-38"),
         new Encounter("Dark Hollow",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -69,7 +69,7 @@ public class Encounters {
                             {2,  new EncounterRow(1, 2, 1, 0) },
                             {3,  new EncounterRow(2, 1, 1, 0) },
                             {4,  new EncounterRow(2, 0, 2, 0) },
-                        }, true, "class_encounters_00039"),
+                        }, true, "class_encounters-39"),
         new Encounter("Lightless Passage",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -77,7 +77,7 @@ public class Encounters {
                             {2,  new EncounterRow(1, 1, 1, 0) },
                             {3,  new EncounterRow(2, 2, 1, 0) },
                             {4,  new EncounterRow(2, 1, 2, 0) },
-                        }, true, "class_encounters_00040"),
+                        }, true, "class_encounters-40"),
         new Encounter("Ghostly Keep",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -85,7 +85,7 @@ public class Encounters {
                             {2,  new EncounterRow(1, 2, 1, 0) },
                             {3,  new EncounterRow(2, 1, 1, 0) },
                             {4,  new EncounterRow(2, 2, 1, 0) },
-                        }, true, "class_encounters_00041"),
+                        }, true, "class_encounters-41"),
             new Encounter("The Forgotten",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -93,7 +93,7 @@ public class Encounters {
                             {2,  new EncounterRow(1, 2, 0, 0) },
                             {3,  new EncounterRow(2, 2, 1, 0) },
                             {4,  new EncounterRow(2, 4, 0, 0) },
-                        }, true, "class_encounters_00042")
+                        }, true, "class_encounters-42")
         };
     }
 
@@ -106,7 +106,7 @@ public class Encounters {
                             {2,  new EncounterRow(2, 0, 2, 0) },
                             {3,  new EncounterRow(2, 0, 3, 0) },
                             {4,  new EncounterRow(2, 0, 4, 0) },
-                        }, true, "class_encounters_00043"),
+                        }, true, "class_encounters-43"),
             new Encounter("High Wall of Lothric",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -114,7 +114,7 @@ public class Encounters {
                             {2,  new EncounterRow(2, 0, 2, 0) },
                             {3,  new EncounterRow(2, 3, 2, 0) },
                             {4,  new EncounterRow(2, 3, 3, 0) },
-                        }, true, "class_encounters_00044"),
+                        }, true, "class_encounters-44"),
             new Encounter("Hollow Cell",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -122,7 +122,7 @@ public class Encounters {
                             {2,  new EncounterRow(2, 4, 2, 0) },
                             {3,  new EncounterRow(2, 4, 1, 0) },
                             {4,  new EncounterRow(2, 4, 2, 0) },
-                        }, true, "class_encounters_00045"),
+                        }, true, "class_encounters-45"),
         new Encounter("Burned Gardens",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -130,7 +130,7 @@ public class Encounters {
                             {2,  new EncounterRow(2, 0, 2, 0) },
                             {3,  new EncounterRow(2, 2, 2, 0) },
                             {4,  new EncounterRow(2, 4, 0, 1) },
-                        }, true, "class_encounters_00046"),
+                        }, true, "class_encounters-46"),
         new Encounter("Temple of the Deeps",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -146,7 +146,7 @@ public class Encounters {
                             {2,  new EncounterRow(2, 2, 1, 0) },
                             {3,  new EncounterRow(2, 1, 2, 0) },
                             {4,  new EncounterRow(2, 3, 2, 0) },
-                        }, true, "class_encounters_00048"),
+                        }, true, "class_encounters-48"),
     new Encounter("Stormwind Gorge",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -154,7 +154,7 @@ public class Encounters {
                             {2,  new EncounterRow(2, 0, 2, 0) },
                             {3,  new EncounterRow(2, 1, 0, 2) },
                             {4,  new EncounterRow(2, 1, 1, 2) },
-                        }, true, "class_encounters_00049"),
+                        }, true, "class_encounters-49"),
     new Encounter("Demon Ruins",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -162,7 +162,7 @@ public class Encounters {
                             {2,  new EncounterRow(2, 0, 0, 1) },
                             {3,  new EncounterRow(2, 2, 2, 0) },
                             {4,  new EncounterRow(2, 0, 4, 0) },
-                        }, true, "class_encounters_00050"),
+                        }, true, "class_encounters-50"),
     new Encounter("Lost Labyrinth",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -170,7 +170,7 @@ public class Encounters {
                             {2,  new EncounterRow(2, 1, 1, 0) },
                             {3,  new EncounterRow(2, 4, 1, 0) },
                             {4,  new EncounterRow(2, 4, 2, 0) },
-                        }, true, "class_encounters_00051"),
+                        }, true, "class_encounters-51"),
     new Encounter("Weathered Peak",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -178,7 +178,7 @@ public class Encounters {
                             {2,  new EncounterRow(2, 0, 2, 0) },
                             {3,  new EncounterRow(2, 2, 0, 1) },
                             {4,  new EncounterRow(2, 0, 2, 1) },
-                        }, true, "class_encounters_00052"),
+                        }, true, "class_encounters-52"),
     new Encounter("Black Dungeon",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -186,7 +186,7 @@ public class Encounters {
                             {2,  new EncounterRow(2, 3, 1, 0) },
                             {3,  new EncounterRow(2, 0, 1, 1) },
                             {4,  new EncounterRow(2, 3, 1, 1) },
-                        }, true, "class_encounters_00053"),
+                        }, true, "class_encounter-53"),
     new Encounter("Prison Tower",
                         new Dictionary<int?, EncounterRow>
                         {
@@ -194,7 +194,7 @@ public class Encounters {
                             {2,  new EncounterRow(2, 2, 1, 0) },
                             {3,  new EncounterRow(2, 2, 2, 0) },
                             {4,  new EncounterRow(2, 2, 3, 0) },
-                        }, true, "class_encounters_00054"),
+                        }, true, "class_encounters-54"),
         };
       
     }

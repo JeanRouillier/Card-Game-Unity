@@ -32,7 +32,7 @@ public class EncounterBoard :MonoBehaviour
         {
             string texture = cp.encounter.textureName;
             CampaignPathEnum position = cp.position;
-            Debug.Log("Texture to display "+texture);
+            //Debug.Log("Texture to display "+texture);
             GameObject toUpdate = null;
             switch (position)
             {
@@ -55,10 +55,8 @@ public class EncounterBoard :MonoBehaviour
             string textureName = manager.getCurrentPath().encounter.textureName;
             if(toUpdate != null)
             {
-                Sprite[] toto = new Sprite[classEncounterAtlas.spriteCount];
-                classEncounterAtlas.GetSprites(toto);
-                Sprite [] wantedSprite = toto.Where( e => e.name == textureName).ToArray();
-                toUpdate.GetComponent<SpriteRenderer>().sprite = wantedSprite[0];
+                Sprite sp = classEncounterAtlas.GetSprite(textureName);
+                toUpdate.GetComponent<SpriteRenderer>().sprite = sp;
             }
 
         }

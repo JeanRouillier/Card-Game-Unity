@@ -17,7 +17,6 @@ public class MainBoard : MonoBehaviour
     public Text currentStepText;
     public Text currentStepButtonText;
 
-    public EncounterBoard encounterBoard;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +29,6 @@ public class MainBoard : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     public void nextStep()

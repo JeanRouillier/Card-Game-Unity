@@ -18,7 +18,7 @@ public class Enemies {
                 false,
                 new BoardPosition(0, 2),
                 null,
-                "enemies_00018");
+                "enemies_18");
         Enemy hollowManservant = new Enemy(
                 "hollowManservant",
                 1,
@@ -32,7 +32,7 @@ public class Enemies {
                 false,
                 new BoardPosition(0, 0),
                 null,
-                "enemies_00008");
+                "enemies_8");
         Enemy hollowSoldier = new Enemy(
                 "hollowSoldier",
                 1,
@@ -46,7 +46,7 @@ public class Enemies {
                 false,
                 new BoardPosition(0, 0),
                 null,
-                "enemies_00007");
+                "enemies_7");
 
         return new List<Enemy>{
             irithyllianBeastHound,
@@ -76,7 +76,7 @@ public class Enemies {
                true,
                new BoardPosition(0, 0),
                null,
-               "enemies_00032");
+               "enemies_32");
        
 
         return new List<Enemy> { blackKnightUltraGreatSwordsman };

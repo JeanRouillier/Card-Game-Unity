@@ -23,17 +23,18 @@ public class CardGame
 			int ? level = campaignPath.currentPath.encounterLevel;
 			if(level != null)
 			{				
-				//currentRound.activeEncounter = Rules.selectEncounter(encounterList, level.Value);
-				campaignPath.currentPath.encounter = Rules.selectEncounter(encounterList, level.Value);
+				Encounter e = Rules.selectEncounter(encounterList, level.Value);
+				currentRound.activeEncounter = e;
+				campaignPath.currentPath.encounter = e;
 			}
 			else
 			{
 				//TODO Boss path
 			}
 			currentRound.state = RoundState.ENCOUNTER_PICKED;
-			return;
-		}
-		if (RoundState.ENCOUNTER_PICKED.Equals(currentRound.state)) {
+		//	return;
+		//}
+		//if (RoundState.ENCOUNTER_PICKED.Equals(currentRound.state)) {
 			//PLACE ENEMIES
 			Dictionary<int?, EncounterRow> detail = campaignPath.currentPath.encounter.detail;
 			List<Enemy> enemies = EnemyService.pickEnemies(detail[1]);

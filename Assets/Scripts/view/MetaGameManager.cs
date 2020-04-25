@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine.SceneManagement;
 
 
@@ -82,4 +83,9 @@ public class MetaGameManager : MonoBehaviour
 	{
 		return game.campaignPath.currentPath;
 	}
+
+	public EnemiesBoard GetEnemiesBoard(){
+		return game.enemiesBoard;
+	}
+
 }

@@ -47,8 +47,8 @@ public class EnemiesBoard : GameBoard {
 
     public List<Person> getAllPlacedEnemies() {
         List<Person> result = new List<Person>();
-        for (int i = 0; i <= board.GetLength(0); i++) {
-            for (int j = 0; j <= board.GetLength(1); j++) {
+        for (int i = 0; i <= board.GetLength(0)-1; i++) {
+            for (int j = 0; j <= board.GetLength(1)-1; j++) {
                 Person current = this.board[i, j];
                 if (current != null)
                     result.Add(current);

@@ -59,7 +59,6 @@ public class CurrentPath : MonoBehaviour
             collision.gameObject.GetComponent<SpriteRenderer>().color = hoverColor;
         }
         else {
-            Debug.Log("Path updated");
             updateSelectedPath(collision);
         }
 
