@@ -30,6 +30,10 @@ public class MetaGameManager : MonoBehaviour
 	{
 		game.players.InitActivePlayers(list);
 	}
+
+	public List<Player> getActivePlayers(){
+		return game.players.activePlayers;
+	}
 	public void initPickedCampaign(int campaignId)
 	{
 		if (campaignId == 0)
@@ -86,6 +90,10 @@ public class MetaGameManager : MonoBehaviour
 
 	public EnemiesBoard GetEnemiesBoard(){
 		return game.enemiesBoard;
+	}
+	
+	public AlliesBoard GetAlliesBoard(){
+		return game.alliesBoard;
 	}
 
 }

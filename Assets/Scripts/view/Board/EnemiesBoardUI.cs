@@ -23,7 +23,7 @@ public class EnemiesBoardUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        List<Person> placed = manager.GetEnemiesBoard().getAllPlacedEnemies() ;
+        List<Person> placed = manager.GetEnemiesBoard().getAllPlaced() ;
         if(placed.Count > 0){
             List<Person> row0 = placed.FindAll( e => e.position.x == 0).ToList();
             List<Person> row1 = placed.FindAll( e => e.position.x == 1).ToList();

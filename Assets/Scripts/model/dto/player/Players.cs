@@ -2,16 +2,16 @@ using System.Collections.Generic;
 
 public class Players {
 
-    private static Player WIZARD = new Player("wizard", null, null,
-            "wizard.png");
-    private static Player ASSASSIN = new Player("assassin", null, null,
-            "assassin.png");
-    private static Player KNIGHT = new Player("knight", null, null,
-            "knight.png");
-    private static Player HERALD = new Player("herald", null, null,
-            "herald.png");
+    private static Player WIZARD = new Player(PlayersAvailable.WIZARD, "wizard", null, null,
+            "wizard_front");
+    private static Player ASSASSIN = new Player(PlayersAvailable.ASSASSIN, "assassin", null, null,
+            "assassin_front");
+    private static Player KNIGHT = new Player(PlayersAvailable.KNIGHT, "knight", null, null,
+            "knight_front");
+    private static Player HERALD = new Player(PlayersAvailable.HERALD, "herald", null, null,
+            "herald_front");
 
-    public List<Player> activePlayers = new List<Player>();
+    public List<Player> activePlayers = new List<Player>{ WIZARD, ASSASSIN};
 
     public List<Player> playersList = new List<Player> { WIZARD, ASSASSIN, KNIGHT, HERALD };
 
