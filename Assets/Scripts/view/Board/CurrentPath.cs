@@ -54,7 +54,7 @@ public class CurrentPath : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (isDraged)
+        if (isDraged && collision.gameObject.tag == "CampaignPath")
         {
             collision.gameObject.GetComponent<SpriteRenderer>().color = hoverColor;
         }
@@ -68,7 +68,9 @@ public class CurrentPath : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         Debug.Log("Out");
-        collision.gameObject.GetComponent<SpriteRenderer>().color = defaultColor;
+        if(collision.gameObject.tag == "CampaignPath"){
+            collision.gameObject.GetComponent<SpriteRenderer>().color = defaultColor;
+        }
     }
 
     private void updateSelectedPath(Collider2D collision)

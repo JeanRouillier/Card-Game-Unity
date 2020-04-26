@@ -11,7 +11,7 @@ public class Players {
     private static Player HERALD = new Player(PlayersAvailable.HERALD, "herald", null, null,
             "herald_front");
 
-    public List<Player> activePlayers = new List<Player>{ WIZARD, ASSASSIN};
+    public List<Player> activePlayers = new List<Player>{ WIZARD, ASSASSIN, KNIGHT, HERALD};
 
     public List<Player> playersList = new List<Player> { WIZARD, ASSASSIN, KNIGHT, HERALD };
 

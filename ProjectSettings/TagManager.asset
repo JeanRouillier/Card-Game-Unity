@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - AllAbove
+  - PlayerPosition
+  - CampaignPath
   layers:
   - Default
   - TransparentFX
@@ -44,4 +46,7 @@ TagManager:
     locked: 0
   - name: Cards
     uniqueID: 1743223415
+    locked: 0
+  - name: allAbove
+    uniqueID: 794909467
     locked: 0

@@ -46,19 +46,23 @@ public class PlayerCard : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (isDraged)
+        if (isDraged && collision.gameObject.tag =="PlayerPosition")
         {
+            Debug.Log("this "+ transform.position);
+            Debug.Log("collide "+ collision.transform.position);
             collision.gameObject.GetComponent<SpriteRenderer>().color = hoverColor;
+            transform.position = collision.transform.position;
+            transform.rotation = collision.transform.rotation;
         }
-        else {
-            placePlayer(collision);
-        }        
+               
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("player Out");
-        collision.gameObject.GetComponent<SpriteRenderer>().color = defaultColor;
+         if(collision.gameObject.tag =="PlayerPosition"){
+            collision.gameObject.GetComponent<SpriteRenderer>().color = defaultColor;
+            transform.rotation = new Quaternion();
+         }
     }
 
     private void placePlayer(Collider2D c){
