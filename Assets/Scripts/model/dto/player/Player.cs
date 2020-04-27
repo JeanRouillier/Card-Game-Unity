@@ -4,11 +4,11 @@ using System.Collections.Generic;
 
 public class Player : Person {
 
-    public List<Object> hand = new List<Object>(5);
-    public List<Object> deck = new List<Object>();
+    public List<Card> hand {get;set;}
+    public List<Card> deck {get;set;}
     public PlayersAvailable type;
 
-    public Player(PlayersAvailable ty, String name, List<Object> h, List<Object> d , String t): base(name, null, t){
+    public Player(PlayersAvailable ty, String name, List<Card> h, List<Card> d , String t): base(name, null, t){
         type = ty;
         hand = h;
         deck = d;

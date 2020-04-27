@@ -1,18 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class CurrentPath : MonoBehaviour
+
+public class CurrentPath : Dragable
 {
     private MetaGameManager manager;
-
-    private float startX;
-    private float startY;
-    private bool isDraged = false;
-
-    public Color hoverColor;
-    public Color defaultColor;
 
     public GameObject lowerLeftpath;
     public GameObject upperRightpath;
@@ -25,53 +17,8 @@ public class CurrentPath : MonoBehaviour
         manager = MetaGameManager._instance;
 
     }
-    void Update()
-    {
-        if (isDraged)
-        {
-            Vector3 mousePosition = Input.mousePosition;
-            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-            transform.localPosition = new Vector3(mousePosition.x - startX, mousePosition.y - startY, 0);
-        }
-    }
 
-    private void OnMouseDown()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector3 mousePosition = Input.mousePosition;
-            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-            isDraged = true;
-            startX = mousePosition.x - transform.localPosition.x;
-            startY = mousePosition.y - transform.localPosition.y;
-        }        
-    }
-
-    private void OnMouseUp()
-    {
-        isDraged = false;
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (isDraged && collision.gameObject.tag == "CampaignPath")
-        {
-            collision.gameObject.GetComponent<SpriteRenderer>().color = hoverColor;
-        }
-        else {
-            updateSelectedPath(collision);
-        }
-
-        
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        Debug.Log("Out");
-        if(collision.gameObject.tag == "CampaignPath"){
-            collision.gameObject.GetComponent<SpriteRenderer>().color = defaultColor;
-        }
-    }
+    
 
     private void updateSelectedPath(Collider2D collision)
     {
@@ -96,5 +43,6 @@ public class CurrentPath : MonoBehaviour
             manager.setCurrentPath(CampaignPathEnum.UPPER_LEFT);
         }
     }
+
 }
 

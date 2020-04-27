@@ -34,6 +34,7 @@ public class MetaGameManager : MonoBehaviour
 	public List<Player> getActivePlayers(){
 		return game.players.activePlayers;
 	}
+
 	public void initPickedCampaign(int campaignId)
 	{
 		if (campaignId == 0)

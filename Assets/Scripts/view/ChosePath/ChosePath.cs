@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -44,4 +41,5 @@ public class ChosePath : MonoBehaviour
             sulivanPathObject.GetComponent<Image>().color = selectedColor;
         }
     }
+
 }

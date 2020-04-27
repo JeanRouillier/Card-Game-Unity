@@ -32,7 +32,6 @@ public class EncounterBoard :MonoBehaviour
         {
             string texture = cp.encounter.textureName;
             CampaignPathEnum position = cp.position;
-            //Debug.Log("Texture to display "+texture);
             GameObject toUpdate = null;
             switch (position)
             {
