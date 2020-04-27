@@ -36,13 +36,21 @@ public class MainBoard : MonoBehaviour
         RoundState activeStep = manager.nextStep();
         switch (activeStep)
         {
-            case RoundState.PICK_PATH:
-                currentStepText.text = "Pick encounter";
-                currentStepButtonText.text = "Valid encounter";
+            case RoundState.START:
+                currentStepText.text = "Chose a your next path by moving the token onto it";
+                currentStepButtonText.text = "Valid path";
                 break;
             case RoundState.ENCOUNTER_PICKED:
-                currentStepText.text = "Enemies are placed on board. Position your characters on your board";
+                currentStepText.text = "An encounter have been picked. According to the number of players, enemies have been picked and placed on board. Position your characters on your board";
                 currentStepButtonText.text = "Validate position";
+                break;
+            case RoundState.ALLIES_PLACED:
+                currentStepText.text = "All enemies will attack according to their card description, prepare to defend !";
+                currentStepButtonText.text = "Defend";
+                break;
+            case RoundState.ENEMIES_ATTACKED:
+                currentStepText.text = "It is now your time to attack";
+                currentStepButtonText.text = "Attack target";
                 break;
         }
     }

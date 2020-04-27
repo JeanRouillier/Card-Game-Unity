@@ -31,7 +31,6 @@ public class CardGame
 			{
 				//TODO Boss path
 			}
-			currentRound.state = RoundState.ENCOUNTER_PICKED;
 		//	return;
 		//}
 		//if (RoundState.ENCOUNTER_PICKED.Equals(currentRound.state)) {
@@ -39,11 +38,12 @@ public class CardGame
 			Dictionary<int?, EncounterRow> detail = campaignPath.currentPath.encounter.detail;
 			List<Enemy> enemies = EnemyService.pickEnemies(detail[1]);
 			enemiesBoard.placeEnemies(enemies);
-			currentRound.state = RoundState.ENEMIES_PLACED;
+			currentRound.state = RoundState.ENCOUNTER_PICKED;
 			return;
 		}
-		if (RoundState.ENEMIES_PLACED.Equals(currentRound.state)) {
+		if (RoundState.ENCOUNTER_PICKED.Equals(currentRound.state)) {
 			//Place allies
+			currentRound.state = RoundState.ALLIES_PLACED;
 			return;
 		}
 
