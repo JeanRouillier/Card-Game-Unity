@@ -23,7 +23,7 @@ public class HandUI : MonoBehaviour
     void Update()
     {
         List<Card> cardList = manager.getActivePlayers().Find( p => p.type == type).hand;
-        for(int i = 0; i<= cardList.Count; i++){
+        for(int i = 0; i<= cardList.Count-1; i++){
             Sprite result = null;
             if(cardList[i].isStarter){
                 result = starterAtlas.GetSprite(cardList[i].textureName);
