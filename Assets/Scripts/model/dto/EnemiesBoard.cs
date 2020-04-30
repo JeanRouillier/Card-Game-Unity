@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 public class EnemiesBoard : GameBoard {
 
-    private List<Enemy> frontLineEnemyWaitingList = new List<Enemy>();
-    private List<Enemy> backLineEnemyWaitingList = new List<Enemy>();
+    public List<Enemy> frontLineEnemyWaitingList = new List<Enemy>();
+    public List<Enemy> backLineEnemyWaitingList = new List<Enemy>();
 
     public List<Enemy> FrontLineEnemyWaitingList { get => frontLineEnemyWaitingList; set => frontLineEnemyWaitingList = value; }
     public List<Enemy> BackLineEnemyWaitingList { get => backLineEnemyWaitingList; set => backLineEnemyWaitingList = value; }
@@ -39,6 +39,17 @@ public class EnemiesBoard : GameBoard {
         }
     }
 
+    public new  List<Enemy> getAllPlaced() {
+        List<Enemy> result = new List<Enemy>();
+        for (int i = 0; i <= board.GetLength(0)-1; i++) {
+            for (int j = 0; j <= board.GetLength(1)-1; j++) {
+                Enemy current = (Enemy) this.board[i, j];
+                if (current != null)
+                    result.Add(current);
+            }
+        }
+        return result;
+    }
     public new void flush() {
         base.flush();
         FrontLineEnemyWaitingList.Clear();

@@ -16,11 +16,11 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     
     public string tagToInteractWith;
     
-    void Start(){
-        initialPosition = transform.position;
-        initialQuaternion = transform.rotation;
+    void Awake(){
+        initialPosition = gameObject.transform.position;
+        initialQuaternion = gameObject.transform.rotation;
     }
-    private void OnTriggerStay2D(Collider2D collision)
+    protected void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.tag == tagToInteractWith)
         {
@@ -30,16 +30,13 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    protected void OnTriggerExit2D(Collider2D collision)
     {
          if(collision.gameObject.tag == tagToInteractWith){
             collision.gameObject.GetComponent<SpriteRenderer>().color = defaultColor;
-            collidedWithPosition = new Vector3();
-            collidedWithQuaternion = new Quaternion();
-         }else{
-             transform.position = initialPosition;
-             transform.rotation = initialQuaternion;
-         }
+              collidedWithPosition = initialPosition;
+              collidedWithQuaternion = new Quaternion();
+           }
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -61,8 +58,6 @@ public class Dragable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         if(collidedWithPosition != new Vector3()){
             transform.position  = collidedWithPosition;
             transform.rotation = collidedWithQuaternion;
-        }else{
-            
         }
     }
 }

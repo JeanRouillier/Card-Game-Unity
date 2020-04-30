@@ -7,6 +7,7 @@ TagManager:
   - AllAbove
   - PlayerPosition
   - CampaignPath
+  - PlayerCard
   layers:
   - Default
   - TransparentFX

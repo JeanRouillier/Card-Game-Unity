@@ -239,6 +239,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2499489148561750158, guid: e63bd1ecf7f2d3d46b35330f5b69401c,
+        type: 3}
+      propertyPath: m_Text
+      value: Back
+      objectReference: {fileID: 0}
     - target: {fileID: 2499489149231426516, guid: e63bd1ecf7f2d3d46b35330f5b69401c,
         type: 3}
       propertyPath: m_Layer
@@ -725,25 +730,75 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1301337512}
     m_Modifications:
-    - target: {fileID: 2042082473887254561, guid: de5d5418c01d69648ad5da7067421938,
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: player
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: hoverColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: hoverColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: hoverColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: hoverColor.a
+      value: 0.72156864
+      objectReference: {fileID: 0}
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: defaultColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: defaultColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: defaultColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: defaultColor.a
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2042082473887254561, guid: de5d5418c01d69648ad5da7067421938,
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: tagToInteractWith
       value: PlayerPosition
       objectReference: {fileID: 0}
-    - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
-      propertyPath: m_Name
-      value: KnightWait
+      propertyPath: type
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: m_Name
+      value: KnightCard
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
@@ -758,7 +813,7 @@ PrefabInstance:
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
@@ -809,6 +864,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042082473887254591, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042082473887254591, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042082473887254591, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 14.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042082473887254591, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de5d5418c01d69648ad5da7067421938, type: 3}
@@ -980,7 +1055,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 1
-  m_AllowMSAA: 0
+  m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 0
@@ -1007,6 +1082,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1418752226}
     m_Modifications:
+    - target: {fileID: 1425869587526916857, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225162102319549308, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6676256540554056372, guid: 7311efd283364cc439c94e4a94deecb6,
         type: 3}
       propertyPath: m_Name
@@ -1164,6 +1249,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7770264178982701748, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: x
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7311efd283364cc439c94e4a94deecb6, type: 3}
@@ -1384,25 +1474,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1301337512}
     m_Modifications:
-    - target: {fileID: 2042082473887254561, guid: de5d5418c01d69648ad5da7067421938,
-        type: 3}
-      propertyPath: defaultColor.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2042082473887254561, guid: de5d5418c01d69648ad5da7067421938,
-        type: 3}
-      propertyPath: tagToInteractWith
-      value: PlayerPosition
-      objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: m_Name
-      value: WizardWait
+      value: WizardCard
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
@@ -1417,7 +1502,7 @@ PrefabInstance:
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
@@ -1504,6 +1589,8 @@ MonoBehaviour:
   zero: {fileID: 1397910758}
   one: {fileID: 106103146}
   two: {fileID: 1382666481}
+  tagToInteractWith: 
+  isFrontLane: 1
 --- !u!1 &852015788 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 560496432471391052, guid: 0c421b2fa7595524587ce7cbd25a710c,
@@ -1554,25 +1641,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1301337512}
     m_Modifications:
-    - target: {fileID: 2042082473887254561, guid: de5d5418c01d69648ad5da7067421938,
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
-      propertyPath: defaultColor.a
-      value: 0
+      propertyPath: player
+      value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 2042082473887254561, guid: de5d5418c01d69648ad5da7067421938,
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
-      propertyPath: tagToInteractWith
-      value: PlayerPosition
+      propertyPath: type
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: m_Name
-      value: HeraldWait
+      value: HeraldCard
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
@@ -1587,7 +1679,7 @@ PrefabInstance:
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
@@ -1668,6 +1760,8 @@ MonoBehaviour:
   zero: {fileID: 1639116035}
   one: {fileID: 1775609509}
   two: {fileID: 1545904485}
+  tagToInteractWith: 
+  isFrontLane: 1
 --- !u!1 &949742779 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6676256542064733348, guid: 7311efd283364cc439c94e4a94deecb6,
@@ -1950,7 +2044,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b280f7ce7b978c24fa0c3dcf606fe186, type: 3}
+    m_Font: {fileID: 12800000, guid: 36219ce1954646d4880b722d2927fab7, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -1962,7 +2056,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chose a your next path by moing the token onto it
+  m_Text: Chose a your next path by moving the token onto it
 --- !u!222 &1014995916
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2317,6 +2411,8 @@ MonoBehaviour:
   zero: {fileID: 1197629194}
   one: {fileID: 1197629193}
   two: {fileID: 1197629192}
+  tagToInteractWith: 
+  isFrontLane: 0
 --- !u!1 &1230729233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,6 +2813,8 @@ MonoBehaviour:
   zero: {fileID: 2101266124}
   one: {fileID: 378919203}
   two: {fileID: 949742779}
+  tagToInteractWith: 
+  isFrontLane: 1
 --- !u!1 &1301337511
 GameObject:
   m_ObjectHideFlags: 0
@@ -2764,6 +2862,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88ddd80c4b88f0546bf58bc979015c9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alliesAtlas: {fileID: 4343727234628468602, guid: 93a1d36f5b6b9e244889d4092a4983c7,
+    type: 2}
   herald: {fileID: 980273316}
   knight: {fileID: 389466411}
   assassin: {fileID: 1539872559}
@@ -3014,11 +3114,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1418752224}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daaed468e8e44c745be5de8ace5ef43b, type: 3}
+  m_Script: {fileID: 11500000, guid: deafa936aaf08ed44845376c709f085a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alliesAtlas: {fileID: 4343727234628468602, guid: 93a1d36f5b6b9e244889d4092a4983c7,
-    type: 2}
   frontLane: {fileID: 1292902298}
   backLane: {fileID: 832190992}
   waitingZone: {fileID: 1301337513}
@@ -3029,25 +3127,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1301337512}
     m_Modifications:
-    - target: {fileID: 2042082473887254561, guid: de5d5418c01d69648ad5da7067421938,
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
-      propertyPath: defaultColor.a
-      value: 0
+      propertyPath: player
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2042082473887254561, guid: de5d5418c01d69648ad5da7067421938,
+    - target: {fileID: -6627626069085074669, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
-      propertyPath: tagToInteractWith
-      value: PlayerPosition
+      propertyPath: type
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: m_Name
-      value: AssassinWait
+      value: AssassinCard
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042082473887254588, guid: de5d5418c01d69648ad5da7067421938,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
@@ -3062,7 +3165,7 @@ PrefabInstance:
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2042082473887254589, guid: de5d5418c01d69648ad5da7067421938,
         type: 3}
@@ -3202,7 +3305,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b280f7ce7b978c24fa0c3dcf606fe186, type: 3}
+    m_Font: {fileID: 12800000, guid: 36219ce1954646d4880b722d2927fab7, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -3531,7 +3634,7 @@ MonoBehaviour:
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
+  m_DynamicPixelsPerUnit: 10
 --- !u!223 &2122570538
 Canvas:
   m_ObjectHideFlags: 0
@@ -3668,6 +3771,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 560496432847424178, guid: 0c421b2fa7595524587ce7cbd25a710c,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 560496432847424179, guid: 0c421b2fa7595524587ce7cbd25a710c,
         type: 3}

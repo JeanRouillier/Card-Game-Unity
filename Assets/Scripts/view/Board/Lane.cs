@@ -10,19 +10,16 @@ public class Lane : MonoBehaviour
     public GameObject zero;
     public GameObject one;
     public GameObject two;
+
+    public string tagToInteractWith;
+    public bool isFrontLane = true;
+
     // Start is called before the first frame update
-    void Start()
-    {
-                manager = MetaGameManager._instance;
+    void Start(){
+        manager = MetaGameManager._instance;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void renderContent(List<Person> placed, SpriteAtlas atlas){
+  
+    public void renderContent(List<Enemy> placed, SpriteAtlas atlas){
         foreach(Person p in placed){
             int y = p.position.y;
             GameObject o = null;

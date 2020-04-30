@@ -30,7 +30,6 @@ public class EncounterBoard :MonoBehaviour
         CampaignPath cp = manager.getCurrentPath();
         if(cp != null && cp.encounter != null)
         {
-            string texture = cp.encounter.textureName;
             CampaignPathEnum position = cp.position;
             GameObject toUpdate = null;
             switch (position)
@@ -55,7 +54,9 @@ public class EncounterBoard :MonoBehaviour
             if(toUpdate != null)
             {
                 Sprite sp = classEncounterAtlas.GetSprite(textureName);
-                toUpdate.GetComponent<SpriteRenderer>().sprite = sp;
+                SpriteRenderer s = toUpdate.GetComponent<SpriteRenderer>();
+                s.sprite = sp;
+                Color c = s.color = new Color(1f, 1f, 1f, 1f);
             }
 
         }

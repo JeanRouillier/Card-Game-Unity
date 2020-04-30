@@ -21,7 +21,6 @@ public class Enemy : Person {
         this.textureName = textureName;
     }
 
-    public String name { get; set; }
     public int level { get; set; }
     public int souls { get; set; }
     public int armor { get; set; }
@@ -31,6 +30,5 @@ public class Enemy : Person {
     public ConditionEnum? attackType { get; set; }
     public List<BoardPosition> attackTarget { get; set; }
     public bool isAreaAttack { get; set; }
-    public BoardPosition position { get; set; }
     public BoardPosition effectivePosition { get; set; }
 }

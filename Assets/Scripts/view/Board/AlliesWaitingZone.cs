@@ -7,22 +7,24 @@ public class AlliesWaitingZone : MonoBehaviour
 {
     private MetaGameManager manager;
 
+    public SpriteAtlas alliesAtlas;
+
     public GameObject herald;
     public GameObject knight;
     public GameObject assassin;
     public GameObject wizard;
     void Start()
     {
+        manager = MetaGameManager._instance;
         herald.GetComponent<SpriteRenderer>().enabled = false;
         knight.GetComponent<SpriteRenderer>().enabled = false;
         assassin.GetComponent<SpriteRenderer>().enabled = false;
         wizard.GetComponent<SpriteRenderer>().enabled = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Update(){
+        List<Player> pList = manager.getActivePlayers().FindAll( p => p.position == null);
+        renderPlayer(pList, alliesAtlas);
     }
 
     public void renderPlayer(List<Player> list, SpriteAtlas atlas){

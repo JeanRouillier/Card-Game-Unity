@@ -14,6 +14,9 @@ public class GameBoard {
 
     public Person getAtPosition(BoardPosition position){
         try{
+            if(position == null){
+                return null;
+            }
             return board[position.x, position.y];
         }catch(IndexOutOfRangeException e){
             return null;
@@ -21,13 +24,23 @@ public class GameBoard {
     }
 
     public bool setAtPosition(BoardPosition position, Person person) {
+        if(position == null && person.position != null){
+            //Remove from board
+            int x = person.position.x;
+            int y = person.position.y;
+            board[x,y] = null;
+            person.position = null;
+            return true;
+        }
         var atPosition = getAtPosition(position);
         if (atPosition != null) {
             Console.WriteLine(atPosition.name + " is already present on this position " + position);
             return false;
-        } else {
+        } else if(person.position != null){
             person.position = position;
             board[position.x, position.y] = person;
+            return true;
+        }else{
             return true;
         }
     }
@@ -53,8 +66,8 @@ public class GameBoard {
      */
     public void print() {
         String result = "";
-        for (int i = 0; i <= board.GetLength(0) ; i++) {
-            for (int j = 0; j <= board.GetLength(1) ; j++) {
+        for (int i = 0; i <= board.GetLength(0) -1; i++) {
+            for (int j = 0; j <= board.GetLength(1)-1 ; j++) {
                 String value = board[i, j] != null ? board[i,j].name : "null";
                 result += " | " + value + " | ";
             }

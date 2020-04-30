@@ -31,9 +31,6 @@ public class CardGame
 			{
 				//TODO Boss path
 			}
-		//	return;
-		//}
-		//if (RoundState.ENCOUNTER_PICKED.Equals(currentRound.state)) {
 			//PLACE ENEMIES
 			Dictionary<int?, EncounterRow> detail = campaignPath.currentPath.encounter.detail;
 			List<Enemy> enemies = EnemyService.pickEnemies(detail[1]);
@@ -50,8 +47,8 @@ public class CardGame
 		if (RoundState.ALLIES_PLACED.Equals(currentRound.state)) {
 			//ENEMY ATTACK
 			//All enemies
-			List<Enemy> enemies = new List<Enemy>(enemiesBoard.BackLineEnemyWaitingList);
-			enemies.AddRange(enemiesBoard.FrontLineEnemyWaitingList);
+			List<Enemy> enemies = (List<Enemy>) enemiesBoard.getAllPlaced();
+			//enemies.AddRange(enemiesBoard.FrontLineEnemyWaitingList);
 			EnemyService.enemyAttack(enemies, alliesBoard);
 			currentRound.state = RoundState.ENEMIES_ATTACKED;
 			return;

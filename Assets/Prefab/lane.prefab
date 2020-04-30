@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6676256540554056375}
   m_Layer: 5
-  m_Name: firstLane
+  m_Name: lane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,9 +44,10 @@ GameObject:
   - component: {fileID: 6676256541858098023}
   - component: {fileID: 6676256541858098025}
   - component: {fileID: 6676256541858098022}
+  - component: {fileID: 6225162102319549308}
   m_Layer: 5
   m_Name: 01
-  m_TagString: Untagged
+  m_TagString: PlayerPosition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,6 +142,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.97, y: 14.09}
   m_EdgeRadius: 0
+--- !u!114 &6225162102319549308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676256541858098020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fdd8bf7448c9584ea09f404f4fcc0c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 0
+  y: 1
 --- !u!1 &6676256541990133954
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,9 +167,10 @@ GameObject:
   - component: {fileID: 6676256541990133957}
   - component: {fileID: 6676256541990133959}
   - component: {fileID: 6676256541990133956}
+  - component: {fileID: 1425869587526916857}
   m_Layer: 5
   m_Name: 00
-  m_TagString: Untagged
+  m_TagString: PlayerPosition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -249,6 +265,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.97, y: 14.09}
   m_EdgeRadius: 0
+--- !u!114 &1425869587526916857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676256541990133954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fdd8bf7448c9584ea09f404f4fcc0c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 0
+  y: 0
 --- !u!1 &6676256542064733348
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,9 +290,10 @@ GameObject:
   - component: {fileID: 6676256542064733351}
   - component: {fileID: 6676256542064733353}
   - component: {fileID: 6676256542064733350}
+  - component: {fileID: 7770264178982701748}
   m_Layer: 5
   m_Name: 02
-  m_TagString: Untagged
+  m_TagString: PlayerPosition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -357,3 +388,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.97, y: 14.09}
   m_EdgeRadius: 0
+--- !u!114 &7770264178982701748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676256542064733348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fdd8bf7448c9584ea09f404f4fcc0c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 0
+  y: 2

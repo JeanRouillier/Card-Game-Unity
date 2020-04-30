@@ -18,7 +18,11 @@ public class CurrentPath : Dragable
 
     }
 
-    
+    new void OnTriggerStay2D(Collider2D collision){
+        base.OnTriggerStay2D(collision);
+        updateSelectedPath(collision);
+    }
+
 
     private void updateSelectedPath(Collider2D collision)
     {
