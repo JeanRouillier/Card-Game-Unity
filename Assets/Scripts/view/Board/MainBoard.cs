@@ -7,8 +7,8 @@ public class MainBoard : MonoBehaviour
 {
     private MetaGameManager manager;
    
-    public GameObject enemiesBoardObject;
-    public GameObject alliesBoardObject;
+    public EnemiesBoardUI enemiesBoardUI;
+    public AlliesWaitingZone alliesWaitingZone;
     public GameObject campaignBoardObject;
 
     public Sprite wolnirCampaign;
@@ -47,11 +47,28 @@ public class MainBoard : MonoBehaviour
             case RoundState.ALLIES_PLACED:
                 currentStepText.text = "All enemies will attack according to their card description, prepare to defend !";
                 currentStepButtonText.text = "Defend";
+                displayAttacks();
                 break;
             case RoundState.ENEMIES_ATTACKED:
                 currentStepText.text = "It is now your time to attack";
                 currentStepButtonText.text = "Attack target";
                 break;
+        }
+
+    }
+
+    private void displayAttacks(){
+        Round r = manager.getCurrentRound();
+        EnemyAttack attack = manager.GetEnemyService()
+                                .attack(r.nbEnemiesAttacked, manager.GetEnemiesBoard(), manager.GetAlliesBoard());
+        Enemy e = attack.attacker;
+        List<Player> defenderd = attack.targets;
+        foreach(Player p in defenderd){
+            GameObject playerGo = alliesWaitingZone.getGameObjectFromPlayerType(p);
+            GameObject enemyGo = enemiesBoardUI.getEnemyGameObject(e);
+            if(playerGo != null  && enemyGo != null){
+                GlobalHelper.drawArrow(enemyGo, playerGo);
+            }
         }
     }
 }

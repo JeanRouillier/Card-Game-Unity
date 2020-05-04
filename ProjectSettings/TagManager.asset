@@ -8,6 +8,7 @@ TagManager:
   - PlayerPosition
   - CampaignPath
   - PlayerCard
+  - EnemyPosition
   layers:
   - Default
   - TransparentFX

@@ -29,25 +29,29 @@ public class AlliesWaitingZone : MonoBehaviour
 
     public void renderPlayer(List<Player> list, SpriteAtlas atlas){
         foreach(Player p in list){
-            GameObject o = null;
-            switch(p.type){
-                case PlayersAvailable.WIZARD :
-                    o = wizard;
-                    break;
-                case PlayersAvailable.HERALD :
-                    o = herald;
-                    break;
-                case PlayersAvailable.ASSASSIN :
-                    o = assassin;
-                    break;
-                case PlayersAvailable.KNIGHT :
-                    o = knight; 
-                    break;
-            }
-            
+            GameObject o = getGameObjectFromPlayerType(p);            
             o.GetComponent<SpriteRenderer>().sprite = atlas.GetSprite(p.textureName);
             o.GetComponent<SpriteRenderer>().enabled = true;
             
         }
+    }
+
+    public GameObject getGameObjectFromPlayerType(Player p){
+        GameObject o = null;
+        switch(p.type){
+            case PlayersAvailable.WIZARD :
+                o = wizard;
+                break;
+            case PlayersAvailable.HERALD :
+                o = herald;
+                break;
+            case PlayersAvailable.ASSASSIN :
+                o = assassin;
+                break;
+            case PlayersAvailable.KNIGHT :
+                o = knight; 
+                break;
+        }
+        return o;
     }
 }

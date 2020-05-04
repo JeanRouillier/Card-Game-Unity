@@ -30,8 +30,19 @@ public class EnemiesBoardUI : MonoBehaviour
             
             frontLane.renderContent(row0, enemiesAtlas);
             backLane.renderContent(row1, enemiesAtlas);
-        }
+            
+        }        
+    }
 
-        
+    public GameObject getEnemyGameObject(Enemy e){
+        GameObject result = null;
+        if(e.position != null){
+            if(e.position.y == 0){
+                result = frontLane.getEnemyGameObjectByposition(e.position);
+            }else if(e.position.y == 1){
+                result = backLane.getEnemyGameObjectByposition(e.position);
+            }
+        }
+        return result;
     }
 }

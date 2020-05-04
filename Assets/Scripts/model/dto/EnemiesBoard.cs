@@ -6,9 +6,6 @@ public class EnemiesBoard : GameBoard {
     public List<Enemy> frontLineEnemyWaitingList = new List<Enemy>();
     public List<Enemy> backLineEnemyWaitingList = new List<Enemy>();
 
-    public List<Enemy> FrontLineEnemyWaitingList { get => frontLineEnemyWaitingList; set => frontLineEnemyWaitingList = value; }
-    public List<Enemy> BackLineEnemyWaitingList { get => backLineEnemyWaitingList; set => backLineEnemyWaitingList = value; }
-
     public void placeEnemies(List<Enemy> enemies) {
         foreach (Enemy e in enemies){
             Console.WriteLine(e.name + " " +e.position);
@@ -26,10 +23,10 @@ public class EnemiesBoard : GameBoard {
 
                 } else {
                     if ((e.position.x % 1) != 0) {
-                        BackLineEnemyWaitingList.Add(e);
+                        backLineEnemyWaitingList.Add(e);
                         Console.WriteLine("Added to temp BACK");
                     } else {
-                        FrontLineEnemyWaitingList.Add(e);
+                        frontLineEnemyWaitingList.Add(e);
                         Console.WriteLine("Added to temp FRONT");
                     }
                 }
@@ -52,7 +49,7 @@ public class EnemiesBoard : GameBoard {
     }
     public new void flush() {
         base.flush();
-        FrontLineEnemyWaitingList.Clear();
-        BackLineEnemyWaitingList.Clear();
+        frontLineEnemyWaitingList.Clear();
+        backLineEnemyWaitingList.Clear();
     }
 }

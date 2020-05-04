@@ -18,7 +18,7 @@ public class Enemies {
                 false,
                 new BoardPosition(0, 2),
                 null,
-                "enemies_18");
+                "enemies_17");
         Enemy hollowManservant = new Enemy(
                 "hollowManservant",
                 1,
@@ -32,7 +32,7 @@ public class Enemies {
                 false,
                 new BoardPosition(0, 0),
                 null,
-                "enemies_8");
+                "enemies_10");
         Enemy hollowSoldier = new Enemy(
                 "hollowSoldier",
                 1,
@@ -42,11 +42,11 @@ public class Enemies {
                 AttackTypeEnum.HEAVY,
                 3,
                 null,
-                new List<BoardPosition> { new BoardPosition(0, 2) },
+                new List<BoardPosition> { new BoardPosition(0, 0) },
                 false,
-                new BoardPosition(0, 0),
+                new BoardPosition(0, 2),
                 null,
-                "enemies_7");
+                "enemies_6");
 
         return new List<Enemy>{
             irithyllianBeastHound,
@@ -69,14 +69,14 @@ public class Enemies {
                4,
                null,
                new List<BoardPosition> {
-                   new BoardPosition(0, 1),
+                   new BoardPosition(0, 0),
                    new BoardPosition(0, 1),
                    new BoardPosition(0, 2),
                },
                true,
                new BoardPosition(0, 0),
                null,
-               "enemies_32");
+               "enemies_43");
        
 
         return new List<Enemy> { blackKnightUltraGreatSwordsman };

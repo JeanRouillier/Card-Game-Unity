@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System;
+using UnityEngine;
 public class EnemyService {
 
     private static List<Enemy> one  = Enemies.initLevelOneEnemyList() ;
@@ -16,7 +17,7 @@ public class EnemyService {
     }
 
     public static List<Enemy> pickSpecificEnemy(int level, int qty){
-        Random rand = new Random();
+        System.Random rand = new System.Random();
         List<Enemy> enemyOneCopy = new List<Enemy>(one);
         List<Enemy> enemyTwoCopy = new List<Enemy>(two);
         List<Enemy> enemyThreeCopy = new List<Enemy>(three);
@@ -41,17 +42,21 @@ public class EnemyService {
         return result;
     }
 
-    public static void enemyAttack(List<Enemy> enemyList, AlliesBoard alliesBoard){
-        alliesBoard.print();
-        foreach (Enemy e in enemyList) {
-            Console.WriteLine("ATTACKER : " + e.name + " attacks => "+e.attackTarget);
-            Player p = (Player) alliesBoard.getAtPosition(e.attackTarget[0]);
-            if (!e.isAreaAttack && p != null){
-                    Console.WriteLine("DEFENDER is "+p.name);
-            }else{
-            Console.WriteLine("Attack failed no target");
-            }
+    public List<Player> enemyAttack(Enemy enemy, AlliesBoard alliesBoard){
+        List<Player> targetedByAttack = new List<Player>(); 
+        Player p = (Player) alliesBoard.getAtPosition(enemy.attackTarget[0]);
+        if (!enemy.isAreaAttack && p != null){
+                targetedByAttack.Add(p);
         }
+        return targetedByAttack;
+    }
 
+ 
+    public EnemyAttack attack(int attackerIndex, EnemiesBoard enemiesBoard, AlliesBoard alliesBoard){
+			List<Enemy> enemies = (List<Enemy>) enemiesBoard.getAllPlaced();
+            Enemy nextAttacker = enemies.Find(e => e.isAreaAttack == false);
+            List<Player> attackedPlayer = enemyAttack(nextAttacker, alliesBoard);
+            nextAttacker.hasAtatcked = true;
+            return new EnemyAttack(nextAttacker, attackedPlayer);
     }
 }

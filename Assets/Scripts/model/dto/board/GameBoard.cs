@@ -36,11 +36,9 @@ public class GameBoard {
         if (atPosition != null) {
             Console.WriteLine(atPosition.name + " is already present on this position " + position);
             return false;
-        } else if(person.position != null){
+        } else {
             person.position = position;
             board[position.x, position.y] = person;
-            return true;
-        }else{
             return true;
         }
     }

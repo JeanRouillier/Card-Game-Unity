@@ -10,6 +10,7 @@ public class CardGame
 	public Encounters encounterList = new Encounters();
 	public Campaigns campaignPath = new Campaigns();
 	public Round currentRound = new Round();
+    public EnemyService enemyService = new EnemyService();
 
 	public CardGame() {
 		//currentRound.activeEncounter = null;
@@ -48,9 +49,11 @@ public class CardGame
 			//ENEMY ATTACK
 			//All enemies
 			List<Enemy> enemies = (List<Enemy>) enemiesBoard.getAllPlaced();
-			//enemies.AddRange(enemiesBoard.FrontLineEnemyWaitingList);
-			EnemyService.enemyAttack(enemies, alliesBoard);
-			currentRound.state = RoundState.ENEMIES_ATTACKED;
+			if(currentRound.haveAllEnemiesAttacked(enemies)){
+				currentRound.state = RoundState.ENEMIES_ATTACKED;
+			}else{
+				currentRound.nbEnemiesAttacked =+ 1;
+			}			
 			return;
 		}
 		if (RoundState.ENEMIES_ATTACKED.Equals(currentRound.state)) {

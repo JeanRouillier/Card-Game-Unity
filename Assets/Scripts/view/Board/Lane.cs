@@ -21,7 +21,15 @@ public class Lane : MonoBehaviour
   
     public void renderContent(List<Enemy> placed, SpriteAtlas atlas){
         foreach(Person p in placed){
-            int y = p.position.y;
+            GameObject o = getEnemyGameObjectByposition(p.position);
+            if(o != null){
+                o.GetComponent<SpriteRenderer>().sprite = atlas.GetSprite(p.textureName);
+            }
+        }
+    }
+
+    public GameObject getEnemyGameObjectByposition(BoardPosition position){
+        int y = position.y;
             GameObject o = null;
             if(y == 0){
                o =  zero;
@@ -32,9 +40,6 @@ public class Lane : MonoBehaviour
             if(y == 2){
                 o =  two;
             }
-            if(o != null){
-                o.GetComponent<SpriteRenderer>().sprite = atlas.GetSprite(p.textureName);
-            }
-        }
+            return o;
     }
 }

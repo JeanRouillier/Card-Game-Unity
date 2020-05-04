@@ -5,6 +5,8 @@ public class Person {
     public BoardPosition position { get; set; }
     public String textureName { get; set; }
 
+    public bool hasAtatcked = false;
+
     public Person()
     {
 

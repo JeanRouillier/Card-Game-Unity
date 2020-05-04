@@ -97,4 +97,7 @@ public class MetaGameManager : MonoBehaviour
 		return game.alliesBoard;
 	}
 
+	public EnemyService GetEnemyService(){
+		return game.enemyService;
+	}
 }

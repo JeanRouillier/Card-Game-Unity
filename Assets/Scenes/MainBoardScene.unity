@@ -2304,6 +2304,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 26839324}
     m_Modifications:
+    - target: {fileID: 1425869587526916857, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225162102319549308, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6676256540554056372, guid: 7311efd283364cc439c94e4a94deecb6,
         type: 3}
       propertyPath: m_Name
@@ -2363,6 +2373,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676256541858098020, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyPosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676256541990133954, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyPosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676256542064733348, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyPosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 7770264178982701748, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: x
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7311efd283364cc439c94e4a94deecb6, type: 3}
@@ -4150,6 +4180,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676256541858098020, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyPosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676256541990133954, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyPosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676256542064733348, guid: 7311efd283364cc439c94e4a94deecb6,
+        type: 3}
+      propertyPath: m_TagString
+      value: EnemyPosition
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7311efd283364cc439c94e4a94deecb6, type: 3}
