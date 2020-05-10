@@ -22,15 +22,18 @@ public class HandUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        List<Card> cardList = manager.getActivePlayers().Find( p => p.type == type).hand;
-        for(int i = 0; i<= cardList.Count-1; i++){
-            Sprite result = null;
-            if(cardList[i].isStarter){
-                result = starterAtlas.GetSprite(cardList[i].textureName);
-            }else{
-                result = upgradeAtlas.GetSprite(cardList[i].textureName);
+        Player pl = manager.getActivePlayers().Find( p => p.type == type);
+        if (pl != null){
+            List<Card> cardList = pl.hand;
+            for(int i = 0; i<= cardList.Count-1; i++){
+                Sprite result = null;
+                if(cardList[i].isStarter){
+                    result = starterAtlas.GetSprite(cardList[i].textureName);
+                }else{
+                    result = upgradeAtlas.GetSprite(cardList[i].textureName);
+                }
+                cards[i].GetComponent<SpriteRenderer>().sprite = result;
             }
-            cards[i].GetComponent<SpriteRenderer>().sprite = result;
         }
     }
 }

@@ -49,7 +49,7 @@ public class Enemies {
                 "enemies_6");
 
         return new List<Enemy>{
-            irithyllianBeastHound,
+            
                 hollowManservant,
                 hollowSoldier};
     }

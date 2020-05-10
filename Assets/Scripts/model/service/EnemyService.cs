@@ -26,15 +26,18 @@ public class EnemyService {
         for(int i = 0; i<= qty-1; i++){
             switch (level){
                 case 1:
-                    Enemy a =  enemyOneCopy[rand.Next(enemyOneCopy.Count)];
+                    Enemy a =  one[rand.Next(one.Count)];
+                    one.Remove(a);
                     result.Add(a);
                     break;
                 case 2:
-                    Enemy b = enemyTwoCopy[rand.Next(enemyOneCopy.Count)];
+                    Enemy b = two[rand.Next(two.Count)];
+                    two.Remove(b);
                     result.Add(b);
                     break;
                 case 3:
-                    Enemy c = enemyOneCopy[rand.Next(enemyOneCopy.Count)];
+                    Enemy c = three[rand.Next(three.Count)];
+                    three.Remove(c);
                     result.Add(c);
                     break;
             }

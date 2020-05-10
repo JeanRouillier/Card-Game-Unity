@@ -15,7 +15,7 @@ public class Players {
         initHands();
     }
 
-    public List<Player> activePlayers = new List<Player>{ WIZARD, ASSASSIN, KNIGHT, HERALD};
+    public List<Player> activePlayers = new List<Player>{  HERALD};
 
     public List<Player> playersList = new List<Player> { WIZARD, ASSASSIN, KNIGHT, HERALD };
 
